@@ -4,3 +4,5 @@
 %3. Calculate the point of intersection between the bot and the square
 %4. Generate the angular and linear velocities to navigate to the point of
 %   intersection.
+
+
