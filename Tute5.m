@@ -30,8 +30,8 @@ close all;
 
 
 % Q3
-original = rgb2gray (imread('kfc1.jpg'));
-distorted = rgb2gray (imread('kfc2.jpg'));
+original = rgb2gray (imread('Grey_Hollow_Square.png'));
+distorted = rgb2gray (imread('Grey_Square_Image_1.jpg'));
 
 ptsOriginal = detectSURFFeatures(original);
 ptsDistorted = detectSURFFeatures(distorted);
