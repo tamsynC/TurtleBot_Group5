@@ -1,11 +1,6 @@
-clc;
-close all;
-
-% Q1
-I = imread('Square_v2.png');
-I = rgb2gray(I);
-cornerPoints = detectHarrisFeatures(I,'MinQuality',0.2);
-imshow (I)
-hold on;
-plot (cornerPoints);
-disp(cornerPoints);
+%1. Open the turtlebot camera
+%2. Look for the black square -> check that the square has 4 corners and is
+%   black
+%3. Calculate the point of intersection between the bot and the square
+%4. Generate the angular and linear velocities to navigate to the point of
+%   intersection.
