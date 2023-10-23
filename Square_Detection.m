@@ -5,8 +5,8 @@
 %4. Generate the angular and linear velocities to navigate to the point of
 %   intersection.
 
-square_orig = rgb2gray(imread('Grey_Hollow_Square.png'));
-square_read = rgb2gray(imread('Grey_Square_Image_1.jpg'));
+square_orig = rgb2gray(imread('Grey_Square_Image_1.jpg'));
+square_read = rgb2gray(imread('Grey_Square_Image_4.jpg'));
 
 ptssquare_orig = detectSURFFeatures(square_orig);
 ptssquare_read = detectSURFFeatures(square_read);
