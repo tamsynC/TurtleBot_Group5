@@ -6,7 +6,7 @@
 %   intersection.
 
 square_orig = rgb2gray(imread('Detailed_Square.png'));
-square_read = rgb2gray(imread('Detailed_Square_picture2.png'));
+square_read = rgb2gray(imread('Detailed_Square_picture3.jpg'));
 
 ptssquare_orig = detectSURFFeatures(square_orig);
 ptssquare_read = detectSURFFeatures(square_read);
