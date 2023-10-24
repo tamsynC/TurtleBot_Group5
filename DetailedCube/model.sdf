@@ -20,8 +20,8 @@
         </geometry>
         <material>
           <script>
-                <uri>/home/jet/Desktop/DetailedCube/scripts</uri>
-                <uri>/home/jet/Desktop/DetailedCube/textures</uri>
+                <uri>model://DetailedCube/scripts</uri>
+                <uri>model:///DetailedCube/textures</uri>
                 <name>square/Diffuse</name>
           </script>
           <ambient>1 1 1 1</ambient>
