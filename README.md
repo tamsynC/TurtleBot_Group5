@@ -16,7 +16,10 @@ The aim of this project is to implement a image comparision module to compare a 
 * Ubuntu 18.04
 
 # Dependancies
-
+* MATLAB Add-ons
+  - ROS Toolbox
+  - Computer Vison Toolbox
+  - Image Processing Toolbox
 # Installation Guide
 
 # Contributions
