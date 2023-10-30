@@ -24,24 +24,24 @@ The aim of this project is to implement a image comparision module to compare a 
   - Image Processing Toolbox
     
  * TURTLEBOT
-https://github.com/ROBOTIS-GIT/turtlebot3.git
-https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
-https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
-https://github.com/ros-drivers/usb_cam.git
+ - https://github.com/ROBOTIS-GIT/turtlebot3.git
+ - https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+ - https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+ -https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+ - https://github.com/ros-drivers/usb_cam.git
    
 
 # Setup Guide
 * Start Roscore
 
 * Open an empty world with Turtlebot in Gazebo
-roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+- roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
 * Network Settings
-  * Check ifconfig for ippaddress
-echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
-echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
-echo export ROS_IP=IP_OF_VM >> ~/.bashrc
+  * Check ifconfig for IPaddress
+    - echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
+    - echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
+    - echo export ROS_IP=IP_OF_VM >> ~/.bashrc
 
 
 * Check Rostopic List and Echo
