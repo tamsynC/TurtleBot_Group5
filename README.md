@@ -7,7 +7,7 @@
 The aim of this project is to implement a image comparision module to compare a still image of a deatiled square to a live imput feed from a USB camera mounted to a waffle TurtleBot 3. The TurtleBot is then to move towards this specified square.
 
 
-#Required Software
+# Required Software
 
 * MATLAB
 * ROS Melodic
