@@ -3,6 +3,7 @@
 
 
 Project Description
+
 The aim of this project is to implement a image recognition 
 
 
@@ -10,8 +11,12 @@ Dependencies
 
 
 Contributions
-Ethan So (13566625) – 33%
-Jet Webb	(24502825) – 33%
-Tamsyn Crangle (24439287) – 33%
+
+Ethan So (13566625) â€“ 33%
+
+Jet Webb	(24502825) â€“ 33%
+
+Tamsyn Crangle (24439287) â€“ 33%
+
 
 Link to Demo
