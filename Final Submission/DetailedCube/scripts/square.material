@@ -8,6 +8,7 @@ material square/Diffuse
       texture_unit
       {
         texture square.png
+		filtering trilinear
       }
     }
   }
