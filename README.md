@@ -1,8 +1,9 @@
 # TurtleBot_Group5
 
 # Final Submission
+- The final submissions folder contains MATLAB script to run our turtllebot
+- An image file of objects with the textures 
 
-# Testing 
 
 # Project Description
 
@@ -21,7 +22,7 @@ The aim of this project is to implement a image comparision module to compare a 
   - Computer Vison Toolbox
   - Image Processing Toolbox
  * TURTLEBOT
-
+   
    
 
 # Installation Guide
