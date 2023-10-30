@@ -17,15 +17,37 @@ The aim of this project is to implement a image comparision module to compare a 
 * Ubuntu 18.04
 
 # Dependancies
+
 * MATLAB Add-ons
   - ROS Toolbox
   - Computer Vison Toolbox
   - Image Processing Toolbox
+    
  * TURTLEBOT
-   
+https://github.com/ROBOTIS-GIT/turtlebot3.git
+https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+https://github.com/ROBOTIS-GIT/turtlebot3_autorace.git
+https://github.com/ros-drivers/usb_cam.git
    
 
-# Installation Guide
+# Setup Guide
+* Start Roscore
+
+* Open an empty world with Turtlebot in Gazebo
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+
+* Network Settings
+  * Check ifconfig for ippaddress
+echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
+echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
+echo export ROS_IP=IP_OF_VM >> ~/.bashrc
+
+
+* Check Rostopic List and Echo
+- Check /cmd_vel and /camera/rgb/raw_image to check if ros subscribers and publishers are working
+  rospublisher("/cmd_vel")
+- If not beginning detected by Matlab check network connection and settings
 
 # Contributions
 
