@@ -38,10 +38,14 @@ The aim of this project is to implement a image comparision module to compare a 
     - roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
   * Network Settings
-  * Check ifconfig for IPaddress
-    - echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
-    - echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
-    - echo export ROS_IP=IP_OF_VM >> ~/.bashrc
+    * Check ifconfig for IPaddress
+      - echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
+      - echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
+      - echo export ROS_IP=IP_OF_VM >> ~/.bashrc
+     
+  * Run MATLAB Script
+    * Make sure the a MATLAB rosnode is established with proper connection
+      - Check through rosnode info /matlab_restof_nodename
 
 
   * Check Rostopic List and Echo
@@ -50,6 +54,7 @@ The aim of this project is to implement a image comparision module to compare a 
     - rossubscriber("/camera/rgb/raw_image"); %MATLAB ROS Toolbox
       
   *  If not beginning detected by Matlab check network connection and settings
+
 
 # Contributions
 
@@ -62,6 +67,8 @@ Tamsyn Crangle (24439287) – 33%
 
 # Link to Demo and Presentation
 
-Demo
-
-https://youtu.be/Mz3QDHVlBK4?si=XHbEO6X4NDKP1ZPS
+* Demo
+  - https://youtu.be/Mz3QDHVlBK4?si=XHbEO6X4NDKP1ZPS
+    
+* Presentation
+  - https://www.youtube.com/watch?v=4hxqRl0YiZQ
