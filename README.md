@@ -32,22 +32,24 @@ The aim of this project is to implement a image comparision module to compare a 
    
 
 # Setup Guide
-* Start Roscore
+  * Start Roscore
 
-* Open an empty world with Turtlebot in Gazebo
-- roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+  * Open an empty world with Turtlebot in Gazebo
+    - roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
 
-* Network Settings
+  * Network Settings
   * Check ifconfig for IPaddress
     - echo export ROS_HOSTNAME=IP_OF_VM >> ~/.bashrc
     - echo export ROS_MASTER_URI=http://IP_OF_VM:11311 >> ~/.bashrc
     - echo export ROS_IP=IP_OF_VM >> ~/.bashrc
 
 
-* Check Rostopic List and Echo
-- Check /cmd_vel and /camera/rgb/raw_image to check if ros subscribers and publishers are working
-  rospublisher("/cmd_vel")
-- If not beginning detected by Matlab check network connection and settings
+  * Check Rostopic List and Echo
+    - Check /cmd_vel and /camera/rgb/raw_image to check if ros subscribers and publishers are working
+    - rospublisher("/cmd_vel"); %MATLAB ROS Toolbox
+    - rossubscriber("/camera/rgb/raw_image"); %MATLAB ROS Toolbox
+      
+  *  If not beginning detected by Matlab check network connection and settings
 
 # Contributions
 
